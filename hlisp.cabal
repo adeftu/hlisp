@@ -1,0 +1,10 @@
+name:		     HLisp
+version:	     0.1
+synopsis:            Simple Lisp interpreter
+build-depends:	     base -any, mtl >=1.0, parsec >=1.0, containers -any
+build-type:	     Simple
+
+executable:	     hlisp
+main-is:	     Main.hs
+buildable:	     True
+hs-source-dirs:	     src
